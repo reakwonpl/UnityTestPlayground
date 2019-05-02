@@ -340,7 +340,8 @@ MonoBehaviour:
   - {fileID: 147595445}
   - {fileID: 1177892374}
   - {fileID: 1939635601}
-  spawnTime: 2
+  spawnTime: 1
+  startSpawn: 2
   cube: {fileID: 1677866157744586, guid: 1f184a479dbdf7d4ebfb5b0e707843a5, type: 2}
   materials:
   - {fileID: 2100000, guid: 19a5f32a733206e45b286944cda028ca, type: 2}
@@ -467,7 +468,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 18c166f5a26c02e43890403531f21374, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
