@@ -7,6 +7,7 @@ public class Generator : MonoBehaviour {
     public Transform[] spawns;
 
     public float spawnTime = 3f;
+    public float startSpawn = 2f;
     public GameObject cube;
 
     public Material[] materials;
@@ -14,7 +15,7 @@ public class Generator : MonoBehaviour {
 
 	void Start ()
     {      
-     InvokeRepeating("SpawnCubes", spawnTime, spawnTime);       
+     InvokeRepeating("SpawnCubes", startSpawn, spawnTime);       
     }
 
     private void Update()
